@@ -1,0 +1,22 @@
+{
+  "name": "srcjs",
+  "version": "0.0.1",
+  "description": "A TypeScript wrapper for the SRC API",
+  "license": "MIT",
+  "author": "Brady Shea",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/indext.d.ts",
+  "keywords": [
+    "speedrun"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "node dist/src/test.js"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
