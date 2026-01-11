@@ -20,7 +20,7 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.ts
 var index_exports = {};
 __export(index_exports, {
-  default: () => index_default
+  Client: () => Client
 });
 module.exports = __toCommonJS(index_exports);
 
@@ -62,6 +62,7 @@ var Client = class {
     return response.json();
   }
 };
-
-// src/index.ts
-var index_default = Client;
+// Annotate the CommonJS export names for ESM import in node:
+0 && (module.exports = {
+  Client
+});

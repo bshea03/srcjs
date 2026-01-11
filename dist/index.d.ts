@@ -130,4 +130,4 @@ declare class Client {
     get(endpoint: string): Promise<any>;
 }
 
-export { type Category, type Game, Client as default };
+export { type Category, Client, type Game };

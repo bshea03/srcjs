@@ -36,9 +36,6 @@ var Client = class {
     return response.json();
   }
 };
-
-// src/index.ts
-var index_default = Client;
 export {
-  index_default as default
+  Client
 };
